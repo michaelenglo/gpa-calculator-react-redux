@@ -4,7 +4,7 @@
   "description": "This is a recreation of gpa-calculator using react and redux",
   "main": "index.js",
   "scripts": {
-    "start:client": "cross-env NODE_ENV=development node /server.js",
+    "start:client": "cross-env NODE_ENV=development node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +24,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.1.1",
     "express": "^4.16.2",
     "path": "^0.12.7",
     "react": "^16.0.0",
