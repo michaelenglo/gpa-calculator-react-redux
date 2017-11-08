@@ -48,18 +48,6 @@ const config = {
           'style-loader',
           'css-loader'
         ],
-        include: resolve(rootPath, 'styles'),
-        exclude: /node_modules/
-      },
-      {
-        test: /\.scss$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          'sass-loader',
-          'autoprefixer-loader',
-        ],
-        include: resolve(rootPath, 'styles'),
         exclude: /node_modules/
       },
       {
